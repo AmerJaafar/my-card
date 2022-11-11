@@ -28,7 +28,7 @@ body {
 .image {
     height: 100px;
     width: 100px;
-    background-image: url(../images/IMG_20191207_071017.png);
+    background-image: url(./images/IMG_20191207_071017.png);
     background-size: cover;
     border-radius: 50%;
     border: 8px solid white;
