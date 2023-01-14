@@ -14,8 +14,20 @@ body {
     left: 50%;
 }
 
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .container {
-    height: 450px;
+    height: 475px;
     width: 300px;
     box-shadow: 0 10px 20px black;
     background-size: cover;
@@ -80,3 +92,30 @@ p {
     color: rgb(18, 192, 235);
     
 }
+
+.portfolio {
+    display: flex;
+    margin: 20px auto 5px;
+    min-width: 50%;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(40, 163, 194);
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    animation: slide-in-left 2s ease-in-out forwards 2s;
+    opacity: 0;
+}
+
+
+
+.portfolio:hover {
+    background-color: rgb(40, 163, 194);
+    transform: scale(1.1);
+}
+
