@@ -107,15 +107,15 @@ p {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: .5s ease-in-out;
-    animation: slide-in-left 2s ease-in-out forwards 2s;
+    animation: slide-in-left 2s ease-in-out forwards 1s;
     opacity: 0;
+    transition: 1s ease;
 }
 
 
 
 .portfolio:hover {
     background-color: rgb(40, 163, 194);
-    transform: scale(1.1);
+    transform: scale(2);
 }
 
