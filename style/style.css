@@ -96,8 +96,7 @@ p {
 .portfolio {
     display: flex;
     margin: 20px auto 5px;
-    min-width: 50%;
-    max-width: 60%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -105,16 +104,13 @@ p {
     border: 1px solid rgb(40, 163, 194);
     font-weight: 500;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
     animation: slide-in-left 2s ease-in-out forwards 1s;
     opacity: 0;
     transition: 1s ease;
 }
 
 .portfolio:hover {
-    background-color: rgb(40, 163, 194);
-    transform: scale(2);
+    background-color: rgb(40, 163, 194 ,70%);
     box-shadow: 0 5px 10px black;
 }
 
