@@ -112,11 +112,12 @@ p {
     transition: 1s ease;
 }
 
-
-
 .portfolio:hover {
     background-color: rgb(40, 163, 194);
     transform: scale(2);
     box-shadow: 0 5px 10px black;
 }
+
+
+
 
